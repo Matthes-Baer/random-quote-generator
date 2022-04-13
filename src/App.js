@@ -14,6 +14,7 @@ function App() {
   const [quote, setQuote] = useState("Our lives begin to end the day we become silent about things that matter.");
   const [author, setAuthor] = useState('Martin Luther King Jr.');
   const [quotesArray, setQuotesArray] = useState(null);
+  const [randomNumber, setRandomNumber] = useState(0);
   const [accentColor, setAccentColor] = useState('#FF6633');
 
   const fetchQuotes = async (url) => {
